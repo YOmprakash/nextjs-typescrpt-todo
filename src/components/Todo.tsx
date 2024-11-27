@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-type Todo = {
+interface Todo = {
     id: number;
     todo: string;
     completed: boolean;
